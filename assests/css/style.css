@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+footer{
+    background-color: #0A22F4;
+    width: 100%;   
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 500px;
+
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 150px;
+   
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+    line-height: 39px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #FFFFFF;
+    max-width: 463px;
+    max-height: 99px;
+    padding-top: 30px;
+}
+
+iframe {
+    top: 5954px;
+    left: 250px;
+    width: 463px;
+    height: 197px;
+    border-radius: 15px ;
+    margin-top: 58px;
+    box-shadow: -5px 5px 1px 1px white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 92px;
+}
+
+.contactpic {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    position: relative;
+}
+
+.img1{
+    margin-top: auto;
+    position: relative;
+    max-width: 70px;
+    width: 100%;
+}
+
+.img2{
+    margin-top: auto;
+    position: absolute;
+    top: 20px;
+    left: 22px;
+}
+
+
+.contactpic a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 250px;
+}
+
+
+.form-row {
+    padding: 2px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+    color:#FFFFFF;
+    
+}
+
+input{
+    background-color: #0A22F4;
+    max-width: 463px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    outline: none;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-overflow: wrap;
+}
+
+textarea {
+    background-color: #0A22F4;
+    width: 100%;
+    height: 150px;
+    color: #FFFFFF;
+    font-size: 15px;
+    border: none;
+
+}
+
+button{
+    margin-top: 50px;
+    margin-left: 110px;
+    max-width: 150px;
+    width: 100%;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 25px ;
+    color: #171717;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 13px;
+    align-self: flex-end;
+}
+
+
+span{
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+.footer2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 90px 200px;
+    font-weight: bold;
+}
